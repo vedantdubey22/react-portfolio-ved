@@ -1,4 +1,4 @@
-import VDlogo from "../assets/images/VDlogo.png";
+import VDlogo from "../assets/images/VDLogo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
