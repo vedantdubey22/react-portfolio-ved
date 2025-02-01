@@ -24,7 +24,7 @@ const Hero = () => {
   initial="hidden"
   animate="visible"
   className="pb-6 text-3xl font-thin tracking-tight sm:text-5xl md:pb-12 
-             lg:mt-30 lg:text-8xl text-center sm:text-left leading-tight">
+             lg:mt-50 lg:text-8xl text-center sm:text-left leading-tight">
   Vedant Dubey
 </motion.h1>
 
@@ -57,7 +57,7 @@ const Hero = () => {
             initial={{x:100, opacity: 0}}
             animate={{x:0, opacity: 1}}
             transition={{duration : 1, delay: 1.2}}
-            src={me} alt="profile" className="w-100 h-auto rounded-2xl mt-10" />
+            src={me} alt="profile" className="w-100 h-auto rounded-2xl mt-30" />
           </div>
         </div>
       </div>
