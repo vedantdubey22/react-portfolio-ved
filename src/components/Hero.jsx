@@ -19,14 +19,15 @@ const Hero = () => {
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
             <div className="text-left">
-              <motion.h1 
-              
-               variants={container(0)}
-               initial="hidden"
-               animate="visible"
-               className="pb-8 text-4xl font-thin tracking-tight sm:text-5xl md:pb-16 lg:mt-30 lg:text-8xl">
-                Vedant Dubey
-              </motion.h1>
+            <motion.h1 
+  variants={container(0)}
+  initial="hidden"
+  animate="visible"
+  className="pb-6 text-3xl font-thin tracking-tight sm:text-5xl md:pb-12 
+             lg:mt-30 lg:text-8xl text-center sm:text-left leading-tight">
+  Vedant Dubey
+</motion.h1>
+
               <motion.span 
   variants={container(0.5)} // Ensuring the same animation as the others
   initial="hidden"
@@ -34,6 +35,10 @@ const Hero = () => {
   className="inline-block bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl sm:text-3xl md:text-4xl tracking-tight text-transparent">
   Full Stack Developer
 </motion.span>
+
+
+
+
 
             </div>
 
@@ -52,7 +57,7 @@ const Hero = () => {
             initial={{x:100, opacity: 0}}
             animate={{x:0, opacity: 1}}
             transition={{duration : 1, delay: 1.2}}
-            src={me} alt="profile" className="w-100 h-auto rounded-2xl" />
+            src={me} alt="profile" className="w-100 h-auto rounded-2xl mt-10" />
           </div>
         </div>
       </div>

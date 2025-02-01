@@ -35,7 +35,7 @@ const PROJECTS = [
 export default PROJECTS;
 
 export const CONTACT ={
-  address: "H.no. 635A, Sector-7 Gohana Sonipat", 
+  address: "Sec-111, Mohali, Punjab", 
   email: "dubeyvedant189@gmail.com",
   phone: "+91 8685039694",
   
