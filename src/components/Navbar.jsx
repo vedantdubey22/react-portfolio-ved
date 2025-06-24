@@ -1,7 +1,6 @@
 import VDlogo from "../assets/images/VDLogo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 
 const Navbar = () => {
@@ -22,10 +21,15 @@ const Navbar = () => {
         />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
-        <FaSquareXTwitter />
-        <FaInstagram />
+        <a href="https://www.linkedin.com/in/vedant-dubey-095836204" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin />
+        </a>
+        <a href="https://github.com/vedantdubey22" target="_blank" rel="noopener noreferrer">
+          <FaGithub />
+        </a>
+        <a href="https://www.instagram.com/vedthesteel/" target="_blank" rel="noopener noreferrer">
+          <FaInstagram />
+        </a>
       </div>
     </nav>
   );
